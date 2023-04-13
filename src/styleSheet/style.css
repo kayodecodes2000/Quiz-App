@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  position: relative;
+  bottom: 20px;
+  animation: side-to-side infinite 5s;
+}
+.container-home {
+  min-height: 120vh;
+  background: url("../Images/quizpix.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.guide {
+  font-size: 19px;
+  font-style: oblique;
+  font: 800;
+  text-transform: capitalize;
+  color: #fff;
+}
+.instructions {
+  background: #000000c9;
+  width: 90%;
+  height: 40vh;
+  position: relative;
+  top: 45px;
+  border-left: 8px solid cream;
+}
+.order-list {
+  position: relative;
+  top: 40px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  font-weight: bolder;
+}
+.btn-container {
+  /* display: flex; */
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+.btn-quiz {
+  background-color: blue;
+  border-radius: 25px;
+  width: 100%;
+  padding: 10px;
+  margin: 20px auto;
+  /* height: 60px; */
+  color: white;
+  border: none;
+  font-size: large;
+}
+.btn-quiz:hover {
+  background-color: darkcyan;
+  color: #000000;
+}
+.create {
+  max-width: 400px;
+  padding: 10px;
+  margin: 0 auto;
+  border-left: 5px solid #0000ff;
+}
+
+h3 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.create input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  display: block;
+  box-sizing: border-box;
+}
+.add-quiz {
+  background: #f1356d;
+  padding: 10px;
+}
+.single-quiz:hover {
+  background: #0000ff;
+}
+label {
+  font-size: 40px;
+}
+button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  top: 40px;
+}
+.btn-home {
+  background: #0000ff;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 70%;
+  position: relative;
+  top: 90px;
+}
+/*  */
+.form-container {
+  min-height: 130vh;
+}
+/*  */
+
+.options-grid:hover {
+  background-color: mediumseagreen;
+  color: #fff;
+}
+/* Media Query for the button in my homepage because the desktop view is too wide */
+@media screen and (min-width: 676px) {
+  .btn-quiz {
+    width: 60%;
+  }
+}
